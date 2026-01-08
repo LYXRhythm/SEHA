@@ -1,0 +1,762 @@
+Namespace(dataset='wiki', seed=1234, alpha=0.005, MAX_EPOCH=150, batch_size=256, bit=32, lr=0.0001, momentum=0.995, noisy_ratio=0.2, noise_mode='sym', tp=5, q=0.01, loss_type='CE', tau=1.0, self_paced=True, linear=True, GPU=0)
+
+[SEHA]: Data loading starts...
+    - Train Numbers: 2173  Valid Numbers:  231  Test Numbers:  231  Classes Numbers:   10
+
+[SEHA]: Training starts...
+
+Epoch 0/150
+-------------------------
+    - [train] Loss: 0.0186  Img2Txt: 0.3012  Txt2Img: 0.2604  Lr: 0.0001
+    - [valid] Loss: 0.0178  Img2Txt: 0.3012  Txt2Img: 0.2604  Lr: 0.0001
+
+Epoch 1/150
+-------------------------
+    - [train] Loss: 0.0168  Img2Txt: 0.4092  Txt2Img: 0.3608  Lr: 0.0001
+    - [valid] Loss: 0.0167  Img2Txt: 0.4092  Txt2Img: 0.3608  Lr: 0.0001
+
+Epoch 2/150
+-------------------------
+    - [train] Loss: 0.0159  Img2Txt: 0.4361  Txt2Img: 0.3835  Lr: 0.0001
+    - [valid] Loss: 0.0162  Img2Txt: 0.4361  Txt2Img: 0.3835  Lr: 0.0001
+
+Epoch 3/150
+-------------------------
+    - [train] Loss: 0.0152  Img2Txt: 0.4481  Txt2Img: 0.4018  Lr: 0.0001
+    - [valid] Loss: 0.0161  Img2Txt: 0.4481  Txt2Img: 0.4018  Lr: 0.0001
+
+Epoch 4/150
+-------------------------
+    - [train] Loss: 0.0146  Img2Txt: 0.4285  Txt2Img: 0.3856  Lr: 0.0001
+    - [valid] Loss: 0.0161  Img2Txt: 0.4285  Txt2Img: 0.3856  Lr: 0.0001
+
+Epoch 5/150
+-------------------------
+    - [train] Loss: 0.0140  Img2Txt: 0.4305  Txt2Img: 0.4025  Lr: 0.0001
+    - [valid] Loss: 0.0162  Img2Txt: 0.4305  Txt2Img: 0.4025  Lr: 0.0001
+
+Epoch 6/150
+-------------------------
+    - [train] Loss: 0.0275  Img2Txt: 0.4763  Txt2Img: 0.4498  Lr: 0.0001
+    - [valid] Loss: 0.0411  Img2Txt: 0.4763  Txt2Img: 0.4498  Lr: 0.0001
+
+Epoch 7/150
+-------------------------
+    - [train] Loss: 0.0264  Img2Txt: 0.4858  Txt2Img: 0.4328  Lr: 0.0001
+    - [valid] Loss: 0.0412  Img2Txt: 0.4858  Txt2Img: 0.4328  Lr: 0.0001
+
+Epoch 8/150
+-------------------------
+    - [train] Loss: 0.0255  Img2Txt: 0.4685  Txt2Img: 0.4347  Lr: 0.0001
+    - [valid] Loss: 0.0409  Img2Txt: 0.4685  Txt2Img: 0.4347  Lr: 0.0001
+
+Epoch 9/150
+-------------------------
+    - [train] Loss: 0.0250  Img2Txt: 0.5036  Txt2Img: 0.4636  Lr: 0.0001
+    - [valid] Loss: 0.0411  Img2Txt: 0.5036  Txt2Img: 0.4636  Lr: 0.0001
+
+Epoch 10/150
+-------------------------
+    - [train] Loss: 0.0247  Img2Txt: 0.4982  Txt2Img: 0.4626  Lr: 0.0001
+    - [valid] Loss: 0.0410  Img2Txt: 0.4982  Txt2Img: 0.4626  Lr: 0.0001
+
+Epoch 11/150
+-------------------------
+    - [train] Loss: 0.0246  Img2Txt: 0.4852  Txt2Img: 0.4472  Lr: 0.0001
+    - [valid] Loss: 0.0409  Img2Txt: 0.4852  Txt2Img: 0.4472  Lr: 0.0001
+
+Epoch 12/150
+-------------------------
+    - [train] Loss: 0.0245  Img2Txt: 0.5032  Txt2Img: 0.4681  Lr: 0.0001
+    - [valid] Loss: 0.0409  Img2Txt: 0.5032  Txt2Img: 0.4681  Lr: 0.0001
+
+Epoch 13/150
+-------------------------
+    - [train] Loss: 0.0244  Img2Txt: 0.4843  Txt2Img: 0.4557  Lr: 0.0001
+    - [valid] Loss: 0.0409  Img2Txt: 0.4843  Txt2Img: 0.4557  Lr: 0.0001
+
+Epoch 14/150
+-------------------------
+    - [train] Loss: 0.0244  Img2Txt: 0.4967  Txt2Img: 0.4618  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.4967  Txt2Img: 0.4618  Lr: 0.0001
+
+Epoch 15/150
+-------------------------
+    - [train] Loss: 0.0245  Img2Txt: 0.4992  Txt2Img: 0.4618  Lr: 0.0001
+    - [valid] Loss: 0.0408  Img2Txt: 0.4992  Txt2Img: 0.4618  Lr: 0.0001
+
+Epoch 16/150
+-------------------------
+    - [train] Loss: 0.0245  Img2Txt: 0.5024  Txt2Img: 0.4646  Lr: 0.0001
+    - [valid] Loss: 0.0408  Img2Txt: 0.5024  Txt2Img: 0.4646  Lr: 0.0001
+
+Epoch 17/150
+-------------------------
+    - [train] Loss: 0.0245  Img2Txt: 0.4993  Txt2Img: 0.4603  Lr: 0.0001
+    - [valid] Loss: 0.0408  Img2Txt: 0.4993  Txt2Img: 0.4603  Lr: 0.0001
+
+Epoch 18/150
+-------------------------
+    - [train] Loss: 0.0246  Img2Txt: 0.5007  Txt2Img: 0.4619  Lr: 0.0001
+    - [valid] Loss: 0.0408  Img2Txt: 0.5007  Txt2Img: 0.4619  Lr: 0.0001
+
+Epoch 19/150
+-------------------------
+    - [train] Loss: 0.0246  Img2Txt: 0.5024  Txt2Img: 0.4677  Lr: 0.0001
+    - [valid] Loss: 0.0408  Img2Txt: 0.5024  Txt2Img: 0.4677  Lr: 0.0001
+
+Epoch 20/150
+-------------------------
+    - [train] Loss: 0.0247  Img2Txt: 0.5050  Txt2Img: 0.4650  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5050  Txt2Img: 0.4650  Lr: 0.0001
+
+Epoch 21/150
+-------------------------
+    - [train] Loss: 0.0247  Img2Txt: 0.5134  Txt2Img: 0.4669  Lr: 0.0001
+    - [valid] Loss: 0.0408  Img2Txt: 0.5134  Txt2Img: 0.4669  Lr: 0.0001
+
+Epoch 22/150
+-------------------------
+    - [train] Loss: 0.0248  Img2Txt: 0.5078  Txt2Img: 0.4583  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5078  Txt2Img: 0.4583  Lr: 0.0001
+
+Epoch 23/150
+-------------------------
+    - [train] Loss: 0.0248  Img2Txt: 0.5105  Txt2Img: 0.4673  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5105  Txt2Img: 0.4673  Lr: 0.0001
+
+Epoch 24/150
+-------------------------
+    - [train] Loss: 0.0249  Img2Txt: 0.5095  Txt2Img: 0.4596  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5095  Txt2Img: 0.4596  Lr: 0.0001
+
+Epoch 25/150
+-------------------------
+    - [train] Loss: 0.0249  Img2Txt: 0.5095  Txt2Img: 0.4630  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5095  Txt2Img: 0.4630  Lr: 0.0001
+
+Epoch 26/150
+-------------------------
+    - [train] Loss: 0.0250  Img2Txt: 0.5153  Txt2Img: 0.4656  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5153  Txt2Img: 0.4656  Lr: 0.0001
+
+Epoch 27/150
+-------------------------
+    - [train] Loss: 0.0251  Img2Txt: 0.5153  Txt2Img: 0.4647  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5153  Txt2Img: 0.4647  Lr: 0.0001
+
+Epoch 28/150
+-------------------------
+    - [train] Loss: 0.0251  Img2Txt: 0.5108  Txt2Img: 0.4635  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5108  Txt2Img: 0.4635  Lr: 0.0001
+
+Epoch 29/150
+-------------------------
+    - [train] Loss: 0.0252  Img2Txt: 0.5107  Txt2Img: 0.4562  Lr: 0.0001
+    - [valid] Loss: 0.0407  Img2Txt: 0.5107  Txt2Img: 0.4562  Lr: 0.0001
+
+Epoch 30/150
+-------------------------
+    - [train] Loss: 0.0253  Img2Txt: 0.5155  Txt2Img: 0.4659  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5155  Txt2Img: 0.4659  Lr: 0.0001
+
+Epoch 31/150
+-------------------------
+    - [train] Loss: 0.0253  Img2Txt: 0.5119  Txt2Img: 0.4653  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5119  Txt2Img: 0.4653  Lr: 0.0001
+
+Epoch 32/150
+-------------------------
+    - [train] Loss: 0.0254  Img2Txt: 0.5095  Txt2Img: 0.4673  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5095  Txt2Img: 0.4673  Lr: 0.0001
+
+Epoch 33/150
+-------------------------
+    - [train] Loss: 0.0254  Img2Txt: 0.5123  Txt2Img: 0.4630  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5123  Txt2Img: 0.4630  Lr: 0.0001
+
+Epoch 34/150
+-------------------------
+    - [train] Loss: 0.0255  Img2Txt: 0.5129  Txt2Img: 0.4628  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5129  Txt2Img: 0.4628  Lr: 0.0001
+
+Epoch 35/150
+-------------------------
+    - [train] Loss: 0.0256  Img2Txt: 0.5114  Txt2Img: 0.4682  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5114  Txt2Img: 0.4682  Lr: 0.0001
+
+Epoch 36/150
+-------------------------
+    - [train] Loss: 0.0256  Img2Txt: 0.5141  Txt2Img: 0.4610  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5141  Txt2Img: 0.4610  Lr: 0.0001
+
+Epoch 37/150
+-------------------------
+    - [train] Loss: 0.0257  Img2Txt: 0.5116  Txt2Img: 0.4656  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5116  Txt2Img: 0.4656  Lr: 0.0001
+
+Epoch 38/150
+-------------------------
+    - [train] Loss: 0.0257  Img2Txt: 0.5096  Txt2Img: 0.4649  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5096  Txt2Img: 0.4649  Lr: 0.0001
+
+Epoch 39/150
+-------------------------
+    - [train] Loss: 0.0258  Img2Txt: 0.5147  Txt2Img: 0.4699  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5147  Txt2Img: 0.4699  Lr: 0.0001
+
+Epoch 40/150
+-------------------------
+    - [train] Loss: 0.0258  Img2Txt: 0.5125  Txt2Img: 0.4589  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5125  Txt2Img: 0.4589  Lr: 0.0001
+
+Epoch 41/150
+-------------------------
+    - [train] Loss: 0.0259  Img2Txt: 0.5134  Txt2Img: 0.4619  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5134  Txt2Img: 0.4619  Lr: 0.0001
+
+Epoch 42/150
+-------------------------
+    - [train] Loss: 0.0260  Img2Txt: 0.5147  Txt2Img: 0.4578  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5147  Txt2Img: 0.4578  Lr: 0.0001
+
+Epoch 43/150
+-------------------------
+    - [train] Loss: 0.0260  Img2Txt: 0.5126  Txt2Img: 0.4566  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5126  Txt2Img: 0.4566  Lr: 0.0001
+
+Epoch 44/150
+-------------------------
+    - [train] Loss: 0.0261  Img2Txt: 0.5192  Txt2Img: 0.4641  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5192  Txt2Img: 0.4641  Lr: 0.0001
+
+Epoch 45/150
+-------------------------
+    - [train] Loss: 0.0261  Img2Txt: 0.5134  Txt2Img: 0.4613  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5134  Txt2Img: 0.4613  Lr: 0.0001
+
+Epoch 46/150
+-------------------------
+    - [train] Loss: 0.0262  Img2Txt: 0.5097  Txt2Img: 0.4525  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5097  Txt2Img: 0.4525  Lr: 0.0001
+
+Epoch 47/150
+-------------------------
+    - [train] Loss: 0.0262  Img2Txt: 0.5141  Txt2Img: 0.4564  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5141  Txt2Img: 0.4564  Lr: 0.0001
+
+Epoch 48/150
+-------------------------
+    - [train] Loss: 0.0263  Img2Txt: 0.5168  Txt2Img: 0.4518  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5168  Txt2Img: 0.4518  Lr: 0.0001
+
+Epoch 49/150
+-------------------------
+    - [train] Loss: 0.0264  Img2Txt: 0.5129  Txt2Img: 0.4586  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5129  Txt2Img: 0.4586  Lr: 0.0001
+
+Epoch 50/150
+-------------------------
+    - [train] Loss: 0.0264  Img2Txt: 0.5139  Txt2Img: 0.4560  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5139  Txt2Img: 0.4560  Lr: 0.0001
+
+Epoch 51/150
+-------------------------
+    - [train] Loss: 0.0265  Img2Txt: 0.5113  Txt2Img: 0.4540  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5113  Txt2Img: 0.4540  Lr: 0.0001
+
+Epoch 52/150
+-------------------------
+    - [train] Loss: 0.0265  Img2Txt: 0.5136  Txt2Img: 0.4534  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5136  Txt2Img: 0.4534  Lr: 0.0001
+
+Epoch 53/150
+-------------------------
+    - [train] Loss: 0.0266  Img2Txt: 0.5137  Txt2Img: 0.4584  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5137  Txt2Img: 0.4584  Lr: 0.0001
+
+Epoch 54/150
+-------------------------
+    - [train] Loss: 0.0266  Img2Txt: 0.5132  Txt2Img: 0.4567  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5132  Txt2Img: 0.4567  Lr: 0.0001
+
+Epoch 55/150
+-------------------------
+    - [train] Loss: 0.0267  Img2Txt: 0.5134  Txt2Img: 0.4559  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5134  Txt2Img: 0.4559  Lr: 0.0001
+
+Epoch 56/150
+-------------------------
+    - [train] Loss: 0.0268  Img2Txt: 0.5180  Txt2Img: 0.4581  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5180  Txt2Img: 0.4581  Lr: 0.0001
+
+Epoch 57/150
+-------------------------
+    - [train] Loss: 0.0268  Img2Txt: 0.5121  Txt2Img: 0.4566  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5121  Txt2Img: 0.4566  Lr: 0.0001
+
+Epoch 58/150
+-------------------------
+    - [train] Loss: 0.0269  Img2Txt: 0.5144  Txt2Img: 0.4597  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5144  Txt2Img: 0.4597  Lr: 0.0001
+
+Epoch 59/150
+-------------------------
+    - [train] Loss: 0.0269  Img2Txt: 0.5114  Txt2Img: 0.4534  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5114  Txt2Img: 0.4534  Lr: 0.0001
+
+Epoch 60/150
+-------------------------
+    - [train] Loss: 0.0270  Img2Txt: 0.5095  Txt2Img: 0.4542  Lr: 0.0001
+    - [valid] Loss: 0.0406  Img2Txt: 0.5095  Txt2Img: 0.4542  Lr: 0.0001
+
+Epoch 61/150
+-------------------------
+    - [train] Loss: 0.0270  Img2Txt: 0.5104  Txt2Img: 0.4511  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5104  Txt2Img: 0.4511  Lr: 0.0001
+
+Epoch 62/150
+-------------------------
+    - [train] Loss: 0.0271  Img2Txt: 0.5113  Txt2Img: 0.4552  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5113  Txt2Img: 0.4552  Lr: 0.0001
+
+Epoch 63/150
+-------------------------
+    - [train] Loss: 0.0271  Img2Txt: 0.5136  Txt2Img: 0.4572  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5136  Txt2Img: 0.4572  Lr: 0.0001
+
+Epoch 64/150
+-------------------------
+    - [train] Loss: 0.0272  Img2Txt: 0.5133  Txt2Img: 0.4533  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5133  Txt2Img: 0.4533  Lr: 0.0001
+
+Epoch 65/150
+-------------------------
+    - [train] Loss: 0.0272  Img2Txt: 0.5137  Txt2Img: 0.4579  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5137  Txt2Img: 0.4579  Lr: 0.0001
+
+Epoch 66/150
+-------------------------
+    - [train] Loss: 0.0273  Img2Txt: 0.5128  Txt2Img: 0.4526  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5128  Txt2Img: 0.4526  Lr: 0.0001
+
+Epoch 67/150
+-------------------------
+    - [train] Loss: 0.0273  Img2Txt: 0.5126  Txt2Img: 0.4533  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5126  Txt2Img: 0.4533  Lr: 0.0001
+
+Epoch 68/150
+-------------------------
+    - [train] Loss: 0.0274  Img2Txt: 0.5116  Txt2Img: 0.4552  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5116  Txt2Img: 0.4552  Lr: 0.0001
+
+Epoch 69/150
+-------------------------
+    - [train] Loss: 0.0274  Img2Txt: 0.5160  Txt2Img: 0.4545  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5160  Txt2Img: 0.4545  Lr: 0.0001
+
+Epoch 70/150
+-------------------------
+    - [train] Loss: 0.0275  Img2Txt: 0.5168  Txt2Img: 0.4555  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5168  Txt2Img: 0.4555  Lr: 0.0001
+
+Epoch 71/150
+-------------------------
+    - [train] Loss: 0.0275  Img2Txt: 0.5136  Txt2Img: 0.4556  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5136  Txt2Img: 0.4556  Lr: 0.0001
+
+Epoch 72/150
+-------------------------
+    - [train] Loss: 0.0276  Img2Txt: 0.5136  Txt2Img: 0.4578  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5136  Txt2Img: 0.4578  Lr: 0.0001
+
+Epoch 73/150
+-------------------------
+    - [train] Loss: 0.0276  Img2Txt: 0.5149  Txt2Img: 0.4556  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5149  Txt2Img: 0.4556  Lr: 0.0001
+
+Epoch 74/150
+-------------------------
+    - [train] Loss: 0.0277  Img2Txt: 0.5159  Txt2Img: 0.4629  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5159  Txt2Img: 0.4629  Lr: 0.0001
+
+Epoch 75/150
+-------------------------
+    - [train] Loss: 0.0277  Img2Txt: 0.5154  Txt2Img: 0.4581  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5154  Txt2Img: 0.4581  Lr: 0.0001
+
+Epoch 76/150
+-------------------------
+    - [train] Loss: 0.0278  Img2Txt: 0.5128  Txt2Img: 0.4530  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5128  Txt2Img: 0.4530  Lr: 0.0001
+
+Epoch 77/150
+-------------------------
+    - [train] Loss: 0.0278  Img2Txt: 0.5204  Txt2Img: 0.4568  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5204  Txt2Img: 0.4568  Lr: 0.0001
+
+Epoch 78/150
+-------------------------
+    - [train] Loss: 0.0279  Img2Txt: 0.5167  Txt2Img: 0.4602  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5167  Txt2Img: 0.4602  Lr: 0.0001
+
+Epoch 79/150
+-------------------------
+    - [train] Loss: 0.0279  Img2Txt: 0.5121  Txt2Img: 0.4605  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5121  Txt2Img: 0.4605  Lr: 0.0001
+
+Epoch 80/150
+-------------------------
+    - [train] Loss: 0.0280  Img2Txt: 0.5137  Txt2Img: 0.4639  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5137  Txt2Img: 0.4639  Lr: 0.0001
+
+Epoch 81/150
+-------------------------
+    - [train] Loss: 0.0280  Img2Txt: 0.5169  Txt2Img: 0.4526  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5169  Txt2Img: 0.4526  Lr: 0.0001
+
+Epoch 82/150
+-------------------------
+    - [train] Loss: 0.0281  Img2Txt: 0.5144  Txt2Img: 0.4643  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5144  Txt2Img: 0.4643  Lr: 0.0001
+
+Epoch 83/150
+-------------------------
+    - [train] Loss: 0.0281  Img2Txt: 0.5176  Txt2Img: 0.4617  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5176  Txt2Img: 0.4617  Lr: 0.0001
+
+Epoch 84/150
+-------------------------
+    - [train] Loss: 0.0282  Img2Txt: 0.5157  Txt2Img: 0.4603  Lr: 0.0001
+    - [valid] Loss: 0.0405  Img2Txt: 0.5157  Txt2Img: 0.4603  Lr: 0.0001
+
+Epoch 85/150
+-------------------------
+    - [train] Loss: 0.0282  Img2Txt: 0.5132  Txt2Img: 0.4574  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5132  Txt2Img: 0.4574  Lr: 0.0001
+
+Epoch 86/150
+-------------------------
+    - [train] Loss: 0.0283  Img2Txt: 0.5175  Txt2Img: 0.4545  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5175  Txt2Img: 0.4545  Lr: 0.0001
+
+Epoch 87/150
+-------------------------
+    - [train] Loss: 0.0283  Img2Txt: 0.5113  Txt2Img: 0.4521  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5113  Txt2Img: 0.4521  Lr: 0.0001
+
+Epoch 88/150
+-------------------------
+    - [train] Loss: 0.0284  Img2Txt: 0.5203  Txt2Img: 0.4609  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5203  Txt2Img: 0.4609  Lr: 0.0001
+
+Epoch 89/150
+-------------------------
+    - [train] Loss: 0.0284  Img2Txt: 0.5103  Txt2Img: 0.4551  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5103  Txt2Img: 0.4551  Lr: 0.0001
+
+Epoch 90/150
+-------------------------
+    - [train] Loss: 0.0284  Img2Txt: 0.5156  Txt2Img: 0.4664  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5156  Txt2Img: 0.4664  Lr: 0.0001
+
+Epoch 91/150
+-------------------------
+    - [train] Loss: 0.0285  Img2Txt: 0.5161  Txt2Img: 0.4571  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5161  Txt2Img: 0.4571  Lr: 0.0001
+
+Epoch 92/150
+-------------------------
+    - [train] Loss: 0.0285  Img2Txt: 0.5152  Txt2Img: 0.4514  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5152  Txt2Img: 0.4514  Lr: 0.0001
+
+Epoch 93/150
+-------------------------
+    - [train] Loss: 0.0286  Img2Txt: 0.5145  Txt2Img: 0.4541  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5145  Txt2Img: 0.4541  Lr: 0.0001
+
+Epoch 94/150
+-------------------------
+    - [train] Loss: 0.0286  Img2Txt: 0.5170  Txt2Img: 0.4597  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5170  Txt2Img: 0.4597  Lr: 0.0001
+
+Epoch 95/150
+-------------------------
+    - [train] Loss: 0.0287  Img2Txt: 0.5200  Txt2Img: 0.4619  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5200  Txt2Img: 0.4619  Lr: 0.0001
+
+Epoch 96/150
+-------------------------
+    - [train] Loss: 0.0287  Img2Txt: 0.5176  Txt2Img: 0.4640  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5176  Txt2Img: 0.4640  Lr: 0.0001
+
+Epoch 97/150
+-------------------------
+    - [train] Loss: 0.0287  Img2Txt: 0.5142  Txt2Img: 0.4587  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5142  Txt2Img: 0.4587  Lr: 0.0001
+
+Epoch 98/150
+-------------------------
+    - [train] Loss: 0.0287  Img2Txt: 0.5173  Txt2Img: 0.4697  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5173  Txt2Img: 0.4697  Lr: 0.0001
+
+Epoch 99/150
+-------------------------
+    - [train] Loss: 0.0288  Img2Txt: 0.5149  Txt2Img: 0.4641  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5149  Txt2Img: 0.4641  Lr: 0.0001
+
+Epoch 100/150
+-------------------------
+    - [train] Loss: 0.0288  Img2Txt: 0.5199  Txt2Img: 0.4597  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5199  Txt2Img: 0.4597  Lr: 0.0001
+
+Epoch 101/150
+-------------------------
+    - [train] Loss: 0.0288  Img2Txt: 0.5179  Txt2Img: 0.4542  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5179  Txt2Img: 0.4542  Lr: 0.0001
+
+Epoch 102/150
+-------------------------
+    - [train] Loss: 0.0289  Img2Txt: 0.5207  Txt2Img: 0.4599  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5207  Txt2Img: 0.4599  Lr: 0.0001
+
+Epoch 103/150
+-------------------------
+    - [train] Loss: 0.0289  Img2Txt: 0.5208  Txt2Img: 0.4541  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5208  Txt2Img: 0.4541  Lr: 0.0001
+
+Epoch 104/150
+-------------------------
+    - [train] Loss: 0.0289  Img2Txt: 0.5173  Txt2Img: 0.4654  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5173  Txt2Img: 0.4654  Lr: 0.0001
+
+Epoch 105/150
+-------------------------
+    - [train] Loss: 0.0290  Img2Txt: 0.5163  Txt2Img: 0.4609  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5163  Txt2Img: 0.4609  Lr: 0.0001
+
+Epoch 106/150
+-------------------------
+    - [train] Loss: 0.0290  Img2Txt: 0.5189  Txt2Img: 0.4602  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5189  Txt2Img: 0.4602  Lr: 0.0001
+
+Epoch 107/150
+-------------------------
+    - [train] Loss: 0.0291  Img2Txt: 0.5168  Txt2Img: 0.4560  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5168  Txt2Img: 0.4560  Lr: 0.0001
+
+Epoch 108/150
+-------------------------
+    - [train] Loss: 0.0291  Img2Txt: 0.5188  Txt2Img: 0.4593  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5188  Txt2Img: 0.4593  Lr: 0.0001
+
+Epoch 109/150
+-------------------------
+    - [train] Loss: 0.0291  Img2Txt: 0.5187  Txt2Img: 0.4629  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5187  Txt2Img: 0.4629  Lr: 0.0001
+
+Epoch 110/150
+-------------------------
+    - [train] Loss: 0.0292  Img2Txt: 0.5223  Txt2Img: 0.4619  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5223  Txt2Img: 0.4619  Lr: 0.0001
+
+Epoch 111/150
+-------------------------
+    - [train] Loss: 0.0292  Img2Txt: 0.5179  Txt2Img: 0.4573  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5179  Txt2Img: 0.4573  Lr: 0.0001
+
+Epoch 112/150
+-------------------------
+    - [train] Loss: 0.0293  Img2Txt: 0.5185  Txt2Img: 0.4597  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5185  Txt2Img: 0.4597  Lr: 0.0001
+
+Epoch 113/150
+-------------------------
+    - [train] Loss: 0.0293  Img2Txt: 0.5196  Txt2Img: 0.4645  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5196  Txt2Img: 0.4645  Lr: 0.0001
+
+Epoch 114/150
+-------------------------
+    - [train] Loss: 0.0294  Img2Txt: 0.5178  Txt2Img: 0.4610  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5178  Txt2Img: 0.4610  Lr: 0.0001
+
+Epoch 115/150
+-------------------------
+    - [train] Loss: 0.0294  Img2Txt: 0.5178  Txt2Img: 0.4650  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5178  Txt2Img: 0.4650  Lr: 0.0001
+
+Epoch 116/150
+-------------------------
+    - [train] Loss: 0.0294  Img2Txt: 0.5182  Txt2Img: 0.4614  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5182  Txt2Img: 0.4614  Lr: 0.0001
+
+Epoch 117/150
+-------------------------
+    - [train] Loss: 0.0295  Img2Txt: 0.5172  Txt2Img: 0.4622  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5172  Txt2Img: 0.4622  Lr: 0.0001
+
+Epoch 118/150
+-------------------------
+    - [train] Loss: 0.0295  Img2Txt: 0.5209  Txt2Img: 0.4660  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5209  Txt2Img: 0.4660  Lr: 0.0001
+
+Epoch 119/150
+-------------------------
+    - [train] Loss: 0.0296  Img2Txt: 0.5200  Txt2Img: 0.4664  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5200  Txt2Img: 0.4664  Lr: 0.0001
+
+Epoch 120/150
+-------------------------
+    - [train] Loss: 0.0296  Img2Txt: 0.5185  Txt2Img: 0.4598  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5185  Txt2Img: 0.4598  Lr: 0.0001
+
+Epoch 121/150
+-------------------------
+    - [train] Loss: 0.0296  Img2Txt: 0.5162  Txt2Img: 0.4612  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5162  Txt2Img: 0.4612  Lr: 0.0001
+
+Epoch 122/150
+-------------------------
+    - [train] Loss: 0.0297  Img2Txt: 0.5147  Txt2Img: 0.4613  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5147  Txt2Img: 0.4613  Lr: 0.0001
+
+Epoch 123/150
+-------------------------
+    - [train] Loss: 0.0297  Img2Txt: 0.5162  Txt2Img: 0.4594  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5162  Txt2Img: 0.4594  Lr: 0.0001
+
+Epoch 124/150
+-------------------------
+    - [train] Loss: 0.0297  Img2Txt: 0.5183  Txt2Img: 0.4604  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5183  Txt2Img: 0.4604  Lr: 0.0001
+
+Epoch 125/150
+-------------------------
+    - [train] Loss: 0.0298  Img2Txt: 0.5154  Txt2Img: 0.4567  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5154  Txt2Img: 0.4567  Lr: 0.0001
+
+Epoch 126/150
+-------------------------
+    - [train] Loss: 0.0298  Img2Txt: 0.5158  Txt2Img: 0.4500  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5158  Txt2Img: 0.4500  Lr: 0.0001
+
+Epoch 127/150
+-------------------------
+    - [train] Loss: 0.0299  Img2Txt: 0.5193  Txt2Img: 0.4606  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5193  Txt2Img: 0.4606  Lr: 0.0001
+
+Epoch 128/150
+-------------------------
+    - [train] Loss: 0.0299  Img2Txt: 0.5133  Txt2Img: 0.4691  Lr: 0.0001
+    - [valid] Loss: 0.0404  Img2Txt: 0.5133  Txt2Img: 0.4691  Lr: 0.0001
+
+Epoch 129/150
+-------------------------
+    - [train] Loss: 0.0299  Img2Txt: 0.5148  Txt2Img: 0.4593  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5148  Txt2Img: 0.4593  Lr: 0.0001
+
+Epoch 130/150
+-------------------------
+    - [train] Loss: 0.0300  Img2Txt: 0.5151  Txt2Img: 0.4579  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5151  Txt2Img: 0.4579  Lr: 0.0001
+
+Epoch 131/150
+-------------------------
+    - [train] Loss: 0.0300  Img2Txt: 0.5156  Txt2Img: 0.4570  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5156  Txt2Img: 0.4570  Lr: 0.0001
+
+Epoch 132/150
+-------------------------
+    - [train] Loss: 0.0300  Img2Txt: 0.5140  Txt2Img: 0.4529  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5140  Txt2Img: 0.4529  Lr: 0.0001
+
+Epoch 133/150
+-------------------------
+    - [train] Loss: 0.0301  Img2Txt: 0.5142  Txt2Img: 0.4606  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5142  Txt2Img: 0.4606  Lr: 0.0001
+
+Epoch 134/150
+-------------------------
+    - [train] Loss: 0.0301  Img2Txt: 0.5161  Txt2Img: 0.4626  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5161  Txt2Img: 0.4626  Lr: 0.0001
+
+Epoch 135/150
+-------------------------
+    - [train] Loss: 0.0302  Img2Txt: 0.5136  Txt2Img: 0.4617  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5136  Txt2Img: 0.4617  Lr: 0.0001
+
+Epoch 136/150
+-------------------------
+    - [train] Loss: 0.0302  Img2Txt: 0.5181  Txt2Img: 0.4617  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5181  Txt2Img: 0.4617  Lr: 0.0001
+
+Epoch 137/150
+-------------------------
+    - [train] Loss: 0.0302  Img2Txt: 0.5174  Txt2Img: 0.4652  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5174  Txt2Img: 0.4652  Lr: 0.0001
+
+Epoch 138/150
+-------------------------
+    - [train] Loss: 0.0303  Img2Txt: 0.5175  Txt2Img: 0.4580  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5175  Txt2Img: 0.4580  Lr: 0.0001
+
+Epoch 139/150
+-------------------------
+    - [train] Loss: 0.0303  Img2Txt: 0.5177  Txt2Img: 0.4547  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5177  Txt2Img: 0.4547  Lr: 0.0001
+
+Epoch 140/150
+-------------------------
+    - [train] Loss: 0.0303  Img2Txt: 0.5111  Txt2Img: 0.4654  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5111  Txt2Img: 0.4654  Lr: 0.0001
+
+Epoch 141/150
+-------------------------
+    - [train] Loss: 0.0304  Img2Txt: 0.5135  Txt2Img: 0.4558  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5135  Txt2Img: 0.4558  Lr: 0.0001
+
+Epoch 142/150
+-------------------------
+    - [train] Loss: 0.0304  Img2Txt: 0.5143  Txt2Img: 0.4612  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5143  Txt2Img: 0.4612  Lr: 0.0001
+
+Epoch 143/150
+-------------------------
+    - [train] Loss: 0.0304  Img2Txt: 0.5145  Txt2Img: 0.4512  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5145  Txt2Img: 0.4512  Lr: 0.0001
+
+Epoch 144/150
+-------------------------
+    - [train] Loss: 0.0305  Img2Txt: 0.5172  Txt2Img: 0.4596  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5172  Txt2Img: 0.4596  Lr: 0.0001
+
+Epoch 145/150
+-------------------------
+    - [train] Loss: 0.0305  Img2Txt: 0.5161  Txt2Img: 0.4589  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5161  Txt2Img: 0.4589  Lr: 0.0001
+
+Epoch 146/150
+-------------------------
+    - [train] Loss: 0.0305  Img2Txt: 0.5170  Txt2Img: 0.4502  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5170  Txt2Img: 0.4502  Lr: 0.0001
+
+Epoch 147/150
+-------------------------
+    - [train] Loss: 0.0306  Img2Txt: 0.5201  Txt2Img: 0.4547  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5201  Txt2Img: 0.4547  Lr: 0.0001
+
+Epoch 148/150
+-------------------------
+    - [train] Loss: 0.0306  Img2Txt: 0.5191  Txt2Img: 0.4581  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5191  Txt2Img: 0.4581  Lr: 0.0001
+
+Epoch 149/150
+-------------------------
+    - [train] Loss: 0.0306  Img2Txt: 0.5193  Txt2Img: 0.4577  Lr: 0.0001
+    - [valid] Loss: 0.0403  Img2Txt: 0.5193  Txt2Img: 0.4577  Lr: 0.0001
+Training complete in 1m 5s
+
+[SEHA RESULT]:
+    - Image to Text MAP = 0.5371485814842396
+    - Text to Image MAP = 0.4739376426282372
+    - Average MAP = 0.5055431120562384

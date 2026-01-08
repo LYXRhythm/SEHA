@@ -1,0 +1,69 @@
+Namespace(dataset='wiki', seed=1234, lamda=0.005, MAX_EPOCH=150, batch_size=256, bit=16, lr=0.0001, momentum=0.995, noisy_ratio=0.2, noise_mode='sym', tp=5, q=0.01, loss_type='CE', tau=1.0, linear=True, GPU=0)
+
+[SEHA]: Data loading starts...
+    - Train Numbers: 2173  Valid Numbers:  231  Test Numbers:  231  Classes Numbers:   10
+
+[SEHA]: Training starts...
+
+Epoch 0/150
+-------------------------
+    - [train] Loss: 0.0188  Img2Txt: 0.2269  Txt2Img: 0.1885  Lr: 0.0001
+    - [valid] Loss: 0.0186  Img2Txt: 0.2269  Txt2Img: 0.1885  Lr: 0.0001
+
+Epoch 1/150
+-------------------------
+    - [train] Loss: 0.0177  Img2Txt: 0.3169  Txt2Img: 0.2872  Lr: 0.0001
+    - [valid] Loss: 0.0178  Img2Txt: 0.3169  Txt2Img: 0.2872  Lr: 0.0001
+
+Epoch 2/150
+-------------------------
+    - [train] Loss: 0.0170  Img2Txt: 0.3563  Txt2Img: 0.2812  Lr: 0.0001
+    - [valid] Loss: 0.0175  Img2Txt: 0.3563  Txt2Img: 0.2812  Lr: 0.0001
+
+Epoch 3/150
+-------------------------
+    - [train] Loss: 0.0166  Img2Txt: 0.3658  Txt2Img: 0.3099  Lr: 0.0001
+    - [valid] Loss: 0.0171  Img2Txt: 0.3658  Txt2Img: 0.3099  Lr: 0.0001
+
+Epoch 4/150
+-------------------------
+    - [train] Loss: 0.0161  Img2Txt: 0.3756  Txt2Img: 0.3337  Lr: 0.0001
+    - [valid] Loss: 0.0169  Img2Txt: 0.3756  Txt2Img: 0.3337  Lr: 0.0001
+
+Epoch 5/150
+-------------------------
+    - [train] Loss: 0.0156  Img2Txt: 0.3734  Txt2Img: 0.3331  Lr: 0.0001
+    - [valid] Loss: 0.0169  Img2Txt: 0.3734  Txt2Img: 0.3331  Lr: 0.0001
+
+Epoch 6/150
+-------------------------
+    - [train] Loss: 0.0300  Img2Txt: 0.4142  Txt2Img: 0.3460  Lr: 0.0001
+    - [valid] Loss: 0.0411  Img2Txt: 0.4142  Txt2Img: 0.3460  Lr: 0.0001
+
+Epoch 7/150
+-------------------------
+    - [train] Loss: 0.0290  Img2Txt: 0.4305  Txt2Img: 0.3896  Lr: 0.0001
+    - [valid] Loss: 0.0411  Img2Txt: 0.4305  Txt2Img: 0.3896  Lr: 0.0001
+
+Epoch 8/150
+-------------------------
+    - [train] Loss: 0.0283  Img2Txt: 0.4419  Txt2Img: 0.3882  Lr: 0.0001
+    - [valid] Loss: 0.0412  Img2Txt: 0.4419  Txt2Img: 0.3882  Lr: 0.0001
+
+Epoch 9/150
+-------------------------
+    - [train] Loss: 0.0278  Img2Txt: 0.4213  Txt2Img: 0.3802  Lr: 0.0001
+    - [valid] Loss: 0.0414  Img2Txt: 0.4213  Txt2Img: 0.3802  Lr: 0.0001
+
+Epoch 10/150
+-------------------------
+    - [train] Loss: 0.0274  Img2Txt: 0.4272  Txt2Img: 0.3915  Lr: 0.0001
+    - [valid] Loss: 0.0413  Img2Txt: 0.4272  Txt2Img: 0.3915  Lr: 0.0001
+
+Epoch 11/150
+-------------------------
+    - [train] Loss: 0.0272  Img2Txt: 0.4229  Txt2Img: 0.3805  Lr: 0.0001
+    - [valid] Loss: 0.0411  Img2Txt: 0.4229  Txt2Img: 0.3805  Lr: 0.0001
+
+Epoch 12/150
+-------------------------
