@@ -25,23 +25,11 @@ pip install numpy pandas scikit-learn tqdm matplotlib
 
 ### Single Task
 
-**Example:**
-
-```bash
-python train.py --dataset wiki --noisy_ratio 0.8 --bit 164
-```
-
-### Single Task
-
-**Example:**
-
 ```bash
 python train.py --dataset wiki --noisy_ratio 0.8 --bit 164
 ```
 
 ### Batch Task
-
-**Example:**
 
 Run preconfigured batch experiments for each dataset:
 
