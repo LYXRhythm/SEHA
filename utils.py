@@ -13,7 +13,7 @@ def str2bool(v):
 def get_training_args():
     parser = argparse.ArgumentParser(description='SEHA')
 
-    parser.add_argument("--dataset", type=str, default="xmedia", help="Dataset to use (wiki, xmedia, INRIA-Websearch, xmedianet)")
+    parser.add_argument("--dataset", type=str, default="wiki", help="Dataset to use (wiki, xmedia, INRIA-Websearch, xmedianet)")
     parser.add_argument("--seed", type=int, default=1234)
     parser.add_argument("--lamda", type=float, default=0.005)
     parser.add_argument("--MAX_EPOCH", type=int, default=150)
